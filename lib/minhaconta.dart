@@ -33,37 +33,39 @@ class _MinhaContaState extends State<MinhaConta> {
                                 ]
                             ),
                             height: 150,
-                            child: Row(
-                              children: [
-                                SizedBox(width: 25),
-                                Image(
-                                    image: AssetImage("/home/labin-linux/AndroidStudioProjects/apppp_storage/lib/profile.png"),
-                                    height: 120,
-                                    width: 120
-                                ),
-                                SizedBox(width: 20),
-                                Column(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: [
-                                    Text(
-                                        "Marcos Rúbio",
-                                        style: TextStyle(
-                                            color: Color.fromRGBO(187, 221, 223, 1),
-                                            fontWeight: FontWeight.bold,
-                                            fontSize: 21
-                                        )
-                                    ),
-                                    Text(
-                                        "Cuzinheiro",
-                                        style: TextStyle(
-                                            color: Color.fromRGBO(166, 160, 163, 1),
-                                            fontStyle: FontStyle.italic,
-                                            fontSize: 15
-                                        )
-                                    )
-                                  ],
-                                )
-                              ],
+                            child: Padding(
+                              padding: EdgeInsets.only(left: 50, right: 50),
+                              child: Row(
+                                children: [
+                                  Image(
+                                      image: NetworkImage("https://raw.githubusercontent.com/claaz/cu-linaria/refs/heads/master/lib/profile.png"),
+                                      height: 120,
+                                      width: 120
+                                  ),
+                                  SizedBox(width: 20),
+                                  Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Text(
+                                          "Marcos Rúbio",
+                                          style: TextStyle(
+                                              color: Color.fromRGBO(187, 221, 223, 1),
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: 21
+                                          )
+                                      ),
+                                      Text(
+                                          "Cuzinheiro",
+                                          style: TextStyle(
+                                              color: Color.fromRGBO(166, 160, 163, 1),
+                                              fontStyle: FontStyle.italic,
+                                              fontSize: 15
+                                          )
+                                      )
+                                    ],
+                                  )
+                                ],
+                              ),
                             )
                         ),
                         Column(

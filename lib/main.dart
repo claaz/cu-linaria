@@ -41,7 +41,7 @@ class _MeuAppState extends State<MeuApp> {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image(image: AssetImage("/home/labin-linux/AndroidStudioProjects/apppp_storage/lib/logo.png"), height: AppBar().preferredSize.height*0.8),
+            Image(image: NetworkImage("https://raw.githubusercontent.com/claaz/cu-linaria/refs/heads/master/lib/logo.png"), height: AppBar().preferredSize.height*0.8),
           ],
         ),
       ),
