@@ -20,7 +20,7 @@ class _LoginState extends State<Login> {
         backgroundColor: Color.fromRGBO(115, 10, 14, 1),
         title: Center(
           child: Image(
-            image: AssetImage("/home/labin-linux/AndroidStudioProjects/apppp_storage/lib/logo.png"),
+            image: NetworkImage("https://raw.githubusercontent.com/claaz/cu-linaria/refs/heads/master/lib/logo.png"),
             height: AppBar().preferredSize.height * 0.8,
           ),
         ),
