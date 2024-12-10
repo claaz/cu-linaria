@@ -16,8 +16,8 @@ class ItemFeed extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: ClipRRect(
-                            borderRadius: BorderRadius.circular(10.0),
-                            child: Image(image: NetworkImage('https://www.revistagula.com.br/uploads/punheta_de_bacalhau_academia_da_gula_spcb_foto_leo_feltran_002.jpg'), width: 279, height: 157)),
+                            borderRadius: BorderRadius.circular(28.0),
+                            child: Image(image: NetworkImage('https://www.revistagula.com.br/uploads/punheta_de_bacalhau_academia_da_gula_spcb_foto_leo_feltran_002.jpg'), width: MediaQuery.of(context).size.width * 0.75, height: 157)),
                       ),
                       Column(children: [
                         Container(
@@ -66,8 +66,8 @@ class ItemFeed1 extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: ClipRRect(
-                        borderRadius: BorderRadius.circular(10.0),
-                        child: Image(image: NetworkImage('https://s2-receitas.glbimg.com/VanEzvZPueVdtzf5hPKuL1ChhbY=/696x390/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2022/9/l/S2tdbpT6StIdluWAXdqQ/churros-recheado-receita.jpg'), width: 279, height: 157)),
+                        borderRadius: BorderRadius.circular(28.0),
+                        child: Image(image: NetworkImage('https://s2-receitas.glbimg.com/VanEzvZPueVdtzf5hPKuL1ChhbY=/696x390/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2022/9/l/S2tdbpT6StIdluWAXdqQ/churros-recheado-receita.jpg'), width: MediaQuery.of(context).size.width * 0.75, height: 157)),
                   ),
                   Column(children: [
                     Container(
@@ -116,8 +116,8 @@ class ItemFeed2 extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: ClipRRect(
-                        borderRadius: BorderRadius.circular(10.0),
-                        child: Image(image: NetworkImage('https://www.vaqueiro.pt/-/media/Project/Upfield/Whitelabels/Vaqueiro-PT/Assets/Recipes/sync-images/53db2f6e-be82-40c2-a1b0-7b5d0f256560.jpg'), width: 279, height: 157)),
+                        borderRadius: BorderRadius.circular(28.0),
+                        child: Image(image: NetworkImage('https://www.vaqueiro.pt/-/media/Project/Upfield/Whitelabels/Vaqueiro-PT/Assets/Recipes/sync-images/53db2f6e-be82-40c2-a1b0-7b5d0f256560.jpg'), width: MediaQuery.of(context).size.width * 0.75, height: 157)),
                   ),
                   Column(children: [
                     Container(
@@ -166,8 +166,8 @@ class ItemFeed3 extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: ClipRRect(
-                        borderRadius: BorderRadius.circular(10.0),
-                        child: Image(image: NetworkImage('https://images01.brasildefato.com.br/1cae14db3043c10ec8b422571a1e5277.jpeg'), width: 279, height: 157)),
+                        borderRadius: BorderRadius.circular(28.0),
+                        child: Image(image: NetworkImage('https://images01.brasildefato.com.br/1cae14db3043c10ec8b422571a1e5277.jpeg'), width: MediaQuery.of(context).size.width * 0.75, height: 157)),
                   ),
                   Column(children: [
                     Container(
